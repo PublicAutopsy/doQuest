@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>{{title}}</title>
+</head>
+<body>
+	{{title}}
+	<form action="/create" method="post" accept-charset="utf-8">
+		<input type="text" name="username">
+	</form>
+	{{#players}}
+	<div><a href="/player/{{user_name}}">{{user_name}}  {{level}}</a> 
+	{{/players}}
+</body>
+</html>

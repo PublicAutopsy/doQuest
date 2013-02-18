@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>{{title}}</title>
+</head>
+<body>
+	<a href="/">{{title}}</a>
+	{{#players}}
+	<div><h3>Name: {{user_name}}</h3> 
+		<h4>Level: {{level}}</h2> 
+		<h5>EXP: {{exp}}/ {{exp_required}}</h5>
+	<form action="/player/{{user_name}}/add_exp" method="post">
+		<input type="hidden" value="25" name="experience_gain">
+		<input type="submit"  value="+75"></input>
+	</form>
+	<form action="/delete/{{user_name}}" method="get">
+		<input type="submit"  value="DELETE"></input>
+	</form>
+	</div>
+	{{/players}}
+	
+</body>
+</html>
