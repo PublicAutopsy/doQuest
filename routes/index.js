@@ -4,6 +4,7 @@
  */
 var mongoose = require('mongoose');
 var Player = mongoose.model('Player');
+var title = "doQuest"
 
 exports.create = function(req, res){
 	new Player({
@@ -28,11 +29,22 @@ exports.index = function(req, res){
 	Player.find(function(err, players, count){
 		res.render('index', { 
 		  	'locals':{
-		  		'title' : 'NodeRPG',
+		  		'title' : title,
 		  		'players': players
 			}  
 		});
 	});		
+}
+
+exports.list = function(req, res){
+    Player.find(function(err, players, count){
+        res.render('list', {
+            'locals':{
+                'title' : title,
+                'players': players
+            }
+        });
+    });
 }
 
 
@@ -61,7 +73,7 @@ exports.add_exp = function(req, res){
 
 		add_exp(new_exp);
 		player.save(function(err){
-			res.redirect('/player/'+req.params.name);
+			res.send(player);
 		});
 
 	});
@@ -70,10 +82,9 @@ exports.add_exp = function(req, res){
 
 exports.info = function(req, res){
 	Player.findOne({user_name: req.params.name}, function (err, player){
-		console.log(player);
 		res.render('players', { 
 		  	'locals':{
-		  		'title' : 'NodeRPG',
+		  		'title' : title,
 		  		'players': player
 			}  
 		});

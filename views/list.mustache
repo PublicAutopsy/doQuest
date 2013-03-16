@@ -21,7 +21,7 @@
             <div class="nav-collapse collapse">
                 <ul class="nav">
                     <li><a href="#">Dashboard</a></li>
-                    <li><a href="/list">Player List</a></li>
+                    <li class="active"><a href="/list">Player List</a></li>
                 </ul>
                 <div class="pull-right">
                     <ul class="nav pull-right">
@@ -39,14 +39,27 @@
         </div>
     </div>
 </div>
-<div class="container">
-    <div class="hero-unit">
-        <h1>Create New</h1> <br>
-        <form action="/create" method="post" accept-charset="utf-8">
-            <input type="text" name="username">
-            <p><input type="submit" value="Submit" class="btn btn-primary btn-large"></p>
-        </form>
+<div class="container" style="margin-top: 60px;">
+    <div class="well">
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Username</th>
+                <th>Level</th>
+                <th style="width: 36px;"></th>
+            </tr>
+            </thead>
+            <tbody>
+             {{#players}}
+            <tr>
+                <td><a href="/player/{{user_name}}">{{user_name}}</a></td>
+                <td>{{level}}</td>
+            </tr>
+             {{/players}}
+
+            </tbody>
+        </table>
     </div>
-</div>
+    </div>
 </body>
 </html>

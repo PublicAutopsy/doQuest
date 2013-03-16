@@ -10,7 +10,6 @@ var express = require('express')
   , mu2express = require("mu2express")
   , mongoose = require('mongoose');
 
-
 var app = express();
 
 require('./db');
@@ -34,10 +33,12 @@ app.configure('development', function(){
   app.use(express.errorHandler());
 });
 
+
 var routes = require('./routes');
 
 app.get('/', routes.index);
 app.get('/player/:name', routes.info);
+app.get('/list', routes.list);
 app.post('/create', routes.create);
 app.get('/delete/:name', routes.delete);
 app.post('/player/:name/add_exp', routes.add_exp);
