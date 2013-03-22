@@ -5,7 +5,7 @@
 	<title>{{title}}</title>
     <link rel="stylesheet" href="/stylesheets/bootstrap.min.css">
     <link rel="stylesheet" href="/stylesheets/bootstrap-responsive.css">
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="/javascripts/jquery.js"></script>
     <script src="/javascripts/bootstrap.min.js"></script>
 </head>
 <body>
@@ -20,20 +20,25 @@
             <a class="brand" href="/">{{title}}</a>
             <div class="nav-collapse collapse">
                 <ul class="nav">
-                    <li class="active"><a href="#">Dashboard</a></li>
+                    {{#user_name}}
+                        <li><a href="/player/{{user_name}}">Dashboard</a></li>
+                    {{/user_name}}
                     <li><a href="/list">Player List</a></li>
                 </ul>
                 <div class="pull-right">
                     <ul class="nav pull-right">
-
-                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Welcome, <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="/user/preferences"><i class="icon-cog"></i> Preferences</a></li>
-                                <li><a href="/help/support"><i class="icon-envelope"></i> Contact Support</a></li>
-                                <li class="divider"></li>
-                                <li><a href="/auth/logout"><i class="icon-off"></i> Logout</a></li>
-                            </ul>
-                        </li>
+                        {{#user_name}}
+                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">   Welcome, {{user_name}}  <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/{{username}}/preferences"><i class="icon-cog"></i> Preferences</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="/logout"><i class="icon-off"></i> Logout</a></li>
+                                </ul>
+                            </li>
+                        {{/user_name}}
+                        {{^user_name}}
+                            <li class="dropdown"><a href="/login" class="dropdown-toggle"> Login</a></li>
+                        {{/user_name}}
                     </ul>
                 </div>
             </div><!--/.nav-collapse -->
@@ -44,7 +49,7 @@
 	<div class="container">
 
         <div class="hero-unit">
-            <h1><span id="name">{{user_name}}</span></h1>
+            <h1><span id="name" style="word-wrap: break-word;">{{user_name}}</span></h1>
 
             <h3>Level: <span id="level">{{level}}</span></h3>
 
@@ -56,9 +61,6 @@
                 <input type="hidden" value="25" name="experience_gain">
                 <p><a id="exp" class="btn btn-primary btn-large">+25</a></p>
             </form>
-            <form action="/delete/{{user_name}}" method="get">
-                <p><input type="submit" value="DELETE" class="btn btn-primary btn-large alert-danger"></p>
-            </form>
         </div>
 	</div>
 	{{/players}}
@@ -66,7 +68,6 @@
         var user_name;
         $(document).ready(function(){
             user_name = $("#name").html();
-            console.log(user_name);
             $("#levelProgress").css("width", function(){
                 var exp = Number($("#experience").text());
                 var expReq = Number($("#experience_req").text());

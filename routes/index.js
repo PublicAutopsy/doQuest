@@ -4,18 +4,18 @@
  */
 var mongoose = require('mongoose');
 var Player = mongoose.model('Player');
-var title = "doQuest"
+var title = "doQuest";
 
-exports.create = function(req, res){
-	new Player({
-		user_name    : req.body.username,
-		level        : 1,
-		exp          : 1,
-		exp_required : 400
-	}).save( function(err, player, count){
-		res.redirect('/player/'+player.user_name);
-	})
-}
+//exports.create = function(req, res){
+//	new Player({
+//		user_name    : req.body.username,
+//		level        : 1,
+//		exp          : 1,
+//		exp_required : 400
+//	}).save( function(err, player, count){
+//		res.redirect('/player/'+player.user_name);
+//	})
+//}
 
 exports.delete = function( req, res){
 	Player.findOne({user_name: req.params.name} , function(err, player){
@@ -26,29 +26,65 @@ exports.delete = function( req, res){
 }
 
 exports.index = function(req, res){
-	Player.find(function(err, players, count){
-		res.render('index', { 
-		  	'locals':{
-		  		'title' : title,
-		  		'players': players
-			}  
-		});
-	});		
+    if (req.isAuthenticated()){
+	Player.findOne({user_name: req.user.user_name} ,function(err, player){
+
+            res.render('index', {
+                'locals':{
+                'user_name' : player.user_name,
+                    'title' : title,
+                    'players': player,
+                    'preference' : player.preference
+                }
+            });
+    }); }
+    else {
+            res.render('index');
+        }
 }
 
 exports.list = function(req, res){
     Player.find(function(err, players, count){
-        res.render('list', {
-            'locals':{
-                'title' : title,
-                'players': players
-            }
-        });
+        if (req.isAuthenticated()){
+
+            res.render('list', {
+                'locals':{
+                    'user_name' : req.user.user_name,
+                    'title' : title,
+                    'players': players
+                }
+            });
+        } else{
+            res.render('list', {
+                'locals':{
+                    'title' : title,
+                    'players': players
+                }
+            });
+        }
     });
+}
+exports.prefs = function(req, res){
+    if (req.isAuthenticated()){
+        Player.findOne({user_name: req.params.name}, function(err, player){
+            console.log(player);
+            res.render('prefs', {
+                'locals':{
+                    'user_name' : req.user.user_name,
+                    'title' : title,
+                    'players': player,
+                    'preference' : player.preference
+                }
+            });
+        });
+        } else{
+           res.redirect("/");
+        }
 }
 
 
 exports.add_exp = function(req, res){
+    if (req.isAuthenticated()){
 	Player.findOne({user_name: req.params.name}, function (err, player){
 
 		var base_exp = 400;
@@ -77,16 +113,29 @@ exports.add_exp = function(req, res){
 		});
 
 	});
+  }  else {
+        res.send();
+    }
 }
 
 
 exports.info = function(req, res){
 	Player.findOne({user_name: req.params.name}, function (err, player){
-		res.render('players', { 
-		  	'locals':{
-		  		'title' : title,
-		  		'players': player
-			}  
-		});
+        if (req.isAuthenticated()){
+            res.render('players', {
+                'locals':{
+                    'user_name' : req.user.user_name,
+                    'title' : title,
+                    'players': player
+                }
+            });
+        } else{
+            res.render('players', {
+                'locals':{
+                    'title' : title,
+                    'players': player
+                }
+            });
+        }
 	});
 }
