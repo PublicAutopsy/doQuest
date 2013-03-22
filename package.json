@@ -1,15 +1,15 @@
 {
   "name": "nodeRPG",
   "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "start": "node app"
+  "engines": {
+    "node": "0.8.x",
+    "npm":  "1.2.x"
   },
   "dependencies": {
     "express"    : "3.0.4",
     "mu2express" : "*",
     "socket.io"  : "*",
     "mongoose"   : "*",
-    "passport"      : "*"
+    "passport"   : "*"
   }
 }

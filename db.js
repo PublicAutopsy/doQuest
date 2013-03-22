@@ -15,4 +15,6 @@ var Player = new Schema({
 
 mongoose.model('Player', Player);
 
-mongoose.connect('mongodb://localhost/doquest-dev2');
+var mongoUri = process.env.MONGOLAB_URI || process.env.MONGOHQ_URL || 'mongodb://localhost/doQuest'; 
+
+mongoose.connect(mongoUri);
