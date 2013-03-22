@@ -116,6 +116,12 @@ function ensureAuthenticated(req, res, next){
     res.redirect('/');
 }
 
-http.createServer(app).listen(app.get('port'), function(){
+http.createServer(app, function(req, res){
+  if (req.url === '/favicon.ico') {
+      res.writeHead(200, {'Content-Type': 'image/x-icon'} );
+      res.end();
+      return;
+    }
+}).listen(app.get('port'), function(){
   console.log("Express server listening on port " + app.get('port'));
 });
