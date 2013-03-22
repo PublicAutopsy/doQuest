@@ -25,7 +25,7 @@ var Player = mongoose.model('Player');
 passport.use(new TwitterStrategy({
     consumerKey: _twitterConsumerKey,
     consumerSecret: _twitterConsumerSecret,
-    callbackURL: "http://localhost:3000/login/success"
+    callbackURL: "http://secret-sierra-7460.herokuapp.com/login/success"
 },
 function(token, tokenSecret, profile, done){
     console.log(profile.username);
