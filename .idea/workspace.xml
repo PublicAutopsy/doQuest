@@ -90,16 +90,16 @@
       <file leaf-file-name="players.mustache" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/players.mustache">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="72" selection-start="136" selection-end="136" vertical-scroll-proportion="-2.5">
+            <state line="4" column="112" selection-start="176" selection-end="176" vertical-scroll-proportion="-2.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.mustache" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.mustache" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.mustache">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="72" selection-start="139" selection-end="139" vertical-scroll-proportion="-2.5">
+            <state line="4" column="112" selection-start="179" selection-end="179" vertical-scroll-proportion="0.08356546">
               <folding />
             </state>
           </provider>
@@ -108,16 +108,16 @@
       <file leaf-file-name="prefs.mustache" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/prefs.mustache">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="72" selection-start="139" selection-end="139" vertical-scroll-proportion="-2.5">
+            <state line="4" column="112" selection-start="179" selection-end="179" vertical-scroll-proportion="-2.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.mustache" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="list.mustache" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/list.mustache">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="72" selection-start="139" selection-end="139" vertical-scroll-proportion="0.08356546">
+            <state line="4" column="112" selection-start="179" selection-end="179" vertical-scroll-proportion="-2.5">
               <folding />
             </state>
           </provider>
@@ -149,10 +149,10 @@
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/db.js" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/views/players.mustache" />
-        <option value="$PROJECT_DIR$/views/index.mustache" />
         <option value="$PROJECT_DIR$/views/prefs.mustache" />
         <option value="$PROJECT_DIR$/views/list.mustache" />
+        <option value="$PROJECT_DIR$/views/players.mustache" />
+        <option value="$PROJECT_DIR$/views/index.mustache" />
       </list>
     </option>
   </component>
@@ -545,30 +545,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/players.mustache">
+    <entry file="file://$PROJECT_DIR$/views/list.mustache">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="72" selection-start="136" selection-end="136" vertical-scroll-proportion="-2.5">
+        <state line="4" column="112" selection-start="179" selection-end="179" vertical-scroll-proportion="-2.5">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.mustache">
+    <entry file="file://$PROJECT_DIR$/views/players.mustache">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="72" selection-start="139" selection-end="139" vertical-scroll-proportion="-2.5">
+        <state line="4" column="112" selection-start="176" selection-end="176" vertical-scroll-proportion="-2.5">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/prefs.mustache">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="72" selection-start="139" selection-end="139" vertical-scroll-proportion="-2.5">
+        <state line="4" column="112" selection-start="179" selection-end="179" vertical-scroll-proportion="-2.5">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/list.mustache">
+    <entry file="file://$PROJECT_DIR$/views/index.mustache">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="72" selection-start="139" selection-end="139" vertical-scroll-proportion="0.08356546">
+        <state line="4" column="112" selection-start="179" selection-end="179" vertical-scroll-proportion="0.08356546">
           <folding />
         </state>
       </provider>
