@@ -91,7 +91,7 @@ app.get('/login',
 
     });
 
-app.get('/login/success',
+app.get('/success',
     passport.authenticate('twitter', { failureRedirect: '/login'}),
     function(req, res){
         res.redirect('/');

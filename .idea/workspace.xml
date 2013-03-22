@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e357476f-d82b-4267-bf80-785af3ed147e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/list.mustache" afterPath="$PROJECT_DIR$/views/list.mustache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/players.mustache" afterPath="$PROJECT_DIR$/views/players.mustache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/prefs.mustache" afterPath="$PROJECT_DIR$/views/prefs.mustache" />
     </list>
     <ignored path="nodeRPG.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,7 +67,7 @@
       <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="40" selection-start="788" selection-end="788" vertical-scroll-proportion="0.58625335">
+            <state line="93" column="9" selection-start="2442" selection-end="2442" vertical-scroll-proportion="0.26280323">
               <folding />
             </state>
           </provider>
@@ -568,7 +565,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="40" selection-start="788" selection-end="788" vertical-scroll-proportion="0.58625335">
+        <state line="93" column="9" selection-start="2442" selection-end="2442" vertical-scroll-proportion="0.26280323">
           <folding />
         </state>
       </provider>
