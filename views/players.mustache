@@ -69,7 +69,7 @@
                 <div> <div class="well">
                     <form action="/player/{{user_name}}/add_todo" method="post">
                         <input type="text" name="new_todo" id="new_todo">
-                        <input id="add_todo" value="Add Todo" type="submit">
+                        <input id="add_todo" value="Add Todo" type="submit" style="position:relative; top:-5px;">
                     </form>
                     {{#todos}} <div class="todo_item" id="{{_id}}">{{text}}</div> {{/todos}}</div>
 
