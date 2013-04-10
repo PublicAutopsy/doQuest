@@ -62,16 +62,18 @@
                 <input type="hidden" value="25" name="experience_gain">
                 <p><a id="exp" class="btn btn-primary btn-large">+25</a></p>
             </form>
-            <form action="/player/{{user_name}}/add_todo" method="post">
-                <input type="text" name="new_todo" id="new_todo">
-                <p><a id="add_todo" class="btn btn-primary btn-large">New Todo</a></p>
-            </form>
+
         </div>
         <div class="row">
             <div class="span6">
-                <div class="well">{{#todos}} <div class="todo_item" id="{{_id}}">{{text}}</div> {{/todos}}</div>
+                <div>
+                    <form action="/player/{{user_name}}/add_todo" method="post">
+                        <input type="text" name="new_todo" id="new_todo">
+                        <input id="add_todo" value="Add Todo" type="submit">
+                    </form>
+                    {{#todos}} <div class="todo_item" id="{{_id}}">{{text}}</div> {{/todos}}</div>
             </div>
-            <div class="span6">{{todos.text}}</div>
+            <div class="span6"></div>
         </div>
 
 	</div>

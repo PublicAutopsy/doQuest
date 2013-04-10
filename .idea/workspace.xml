@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e357476f-d82b-4267-bf80-785af3ed147e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.mustache" afterPath="$PROJECT_DIR$/views/index.mustache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/players.mustache" afterPath="$PROJECT_DIR$/views/players.mustache" />
     </list>
     <ignored path="nodeRPG.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365615177221" ignored="false" />
-    <file path="/index.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1363992517432" ignored="false" />
-    <file path="/players.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365621552877" ignored="false" />
+    <file path="/index.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365622133686" ignored="false" />
+    <file path="/players.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365622285066" ignored="false" />
     <file path="/index.js" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365620544312" ignored="false" />
     <file path="/dummy.xml" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365620267053" ignored="false" />
     <file path="/list.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1363467196441" ignored="false" />
@@ -53,10 +54,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="51" selection-start="1136" selection-end="1136" vertical-scroll-proportion="0.43699732">
+            <state line="39" column="51" selection-start="1136" selection-end="1136" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -71,10 +72,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="players.mustache" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="players.mustache" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/players.mustache">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="110" column="48" selection-start="4813" selection-end="4813" vertical-scroll-proportion="-7.125">
+            <state line="71" column="48" selection-start="3282" selection-end="3282" vertical-scroll-proportion="0.375">
               <folding>
                 <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -118,11 +119,11 @@
         <option value="$PROJECT_DIR$/views/list.mustache" />
         <option value="$PROJECT_DIR$/views/header.mustache" />
         <option value="$PROJECT_DIR$/views/footer.mustache" />
-        <option value="$PROJECT_DIR$/views/index.mustache" />
         <option value="$PROJECT_DIR$/db.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
-        <option value="$PROJECT_DIR$/views/players.mustache" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/views/index.mustache" />
+        <option value="$PROJECT_DIR$/views/players.mustache" />
       </list>
     </option>
   </component>
@@ -445,7 +446,9 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/views/index.mustache">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="38" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0" />
+        <state line="16" column="38" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/players.mustache">
@@ -499,23 +502,9 @@
         <state line="4" column="112" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.mustache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="521" selection-end="521" vertical-scroll-proportion="0.16932908" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="64" selection-start="64292" selection-end="64292" vertical-scroll-proportion="0.083333336" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/players.mustache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="48" selection-start="4813" selection-end="4813" vertical-scroll-proportion="-7.125">
-          <folding>
-            <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
@@ -534,8 +523,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="51" selection-start="1136" selection-end="1136" vertical-scroll-proportion="0.43699732">
+        <state line="39" column="51" selection-start="1136" selection-end="1136" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="33" selection-start="2550" selection-end="2550" vertical-scroll-proportion="-2.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/players.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="48" selection-start="3282" selection-end="3282" vertical-scroll-proportion="0.375">
+          <folding>
+            <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
