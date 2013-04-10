@@ -72,7 +72,11 @@
                         <input type="text" name="new_todo" id="new_todo">
                         <input id="add_todo" value="Add Todo" class="btn" type="submit" style="position:relative; top:-5px;">
                     </form>
-                    {{#todos}} <div class="todo_item" id="{{_id}}">{{text}} <hr></div> {{/todos}}</div>
+                    {{#todos}}
+                        <div class="todo_item" id="{{_id}}">{{text}} <hr></div>
+                    {{/todos}}
+
+                </div>
 
                 </div>
                 </div>
