@@ -64,13 +64,16 @@
             </form>
             <form action="/player/{{user_name}}/add_todo" method="post">
                 <input type="hidden" value="A new Todo" name="new_todo">
-                <p><a id="add_todo" class="btn btn-primary btn-large">+25</a></p>
+                <p><a id="add_todo" class="btn btn-primary btn-large">New Todo</a></p>
             </form>
         </div>
-        <div class="span6">
-            <div class="well">{{todos}}</div>
+        <div class="row">
+            <div class="span6">
+                <div class="well">{{todos}}</div>
+            </div>
+            <div class="span6">{{todos}}</div>
         </div>
-        <div class="span6">{{todos}}</div>
+
 	</div>
 	{{/players}}
     <script type="text/javascript">
