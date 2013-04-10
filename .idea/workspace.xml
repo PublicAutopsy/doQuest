@@ -74,7 +74,7 @@
       <file leaf-file-name="players.mustache" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/players.mustache">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="38" selection-start="2982" selection-end="2982" vertical-scroll-proportion="-0.16071428">
+            <state line="63" column="44" selection-start="3010" selection-end="3010" vertical-scroll-proportion="0.5535714">
               <folding>
                 <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -536,7 +536,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/players.mustache">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="38" selection-start="2982" selection-end="2982" vertical-scroll-proportion="-0.16071428">
+        <state line="63" column="44" selection-start="3010" selection-end="3010" vertical-scroll-proportion="0.5535714">
           <folding>
             <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>

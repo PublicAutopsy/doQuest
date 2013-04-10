@@ -58,19 +58,19 @@
             <div class="progress progress-striped active">
                 <div class="bar" id="levelProgress"></div>
             </div>
-            <form action="/player/{{user_name}}/add_exp" method="post">
-                <input type="hidden" value="25" name="experience_gain">
-                <p><a id="exp" class="btn btn-primary btn-large">+25</a></p>
-            </form>
+            <!--<form action="/player/{{user_name}}/add_exp" method="post">-->
+                <!--<input type="hidden" value="25" name="experience_gain">-->
+                <!--<p><a id="exp" class="btn btn-primary btn-large">+25</a></p>-->
+            <!--</form>-->
 
         </div>
         <div class="row">
             <div class="span6">
                 <div>
-                    <!--<form action="/player/{{user_name}}/add_todo" method="post">-->
-                        <!--<input type="text" name="new_todo" id="new_todo">-->
-                        <!--<input id="add_todo" value="Add Todo" type="submit">-->
-                    <!--</form>-->
+                    <form action="/player/{{user_name}}/add_todo" method="post">
+                        <input type="text" name="new_todo" id="new_todo">
+                        <input id="add_todo" value="Add Todo" type="submit">
+                    </form>
                     {{#todos}} <div class="todo_item" id="{{_id}}">{{text}}</div> {{/todos}}</div>
             </div>
             <div class="span6">
