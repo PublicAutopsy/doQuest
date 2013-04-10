@@ -2,20 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e357476f-d82b-4267-bf80-785af3ed147e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.js" afterPath="$PROJECT_DIR$/db.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.mustache" afterPath="$PROJECT_DIR$/views/index.mustache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/list.mustache" afterPath="$PROJECT_DIR$/views/list.mustache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/players.mustache" afterPath="$PROJECT_DIR$/views/players.mustache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/prefs.mustache" afterPath="$PROJECT_DIR$/views/prefs.mustache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nodeRPG.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1363560512298" ignored="false" />
-    <file path="/index.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1363967180827" ignored="false" />
-    <file path="/players.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1363569522523" ignored="false" />
+    <file path="/Dummy.txt" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365615177221" ignored="false" />
+    <file path="/index.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1363992517432" ignored="false" />
+    <file path="/players.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365617928544" ignored="false" />
     <file path="/index.js" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1363967547420" ignored="false" />
-    <file path="/dummy.xml" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1363464615142" ignored="false" />
+    <file path="/dummy.xml" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365617908040" ignored="false" />
     <file path="/list.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1363467196441" ignored="false" />
-    <file path="/app.js" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1363645432743" ignored="false" />
+    <file path="/app.js" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365619379275" ignored="false" />
     <file path="/Applications/MAMP/htdocs/aisf-designs/footer.php" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1363479967419" ignored="false" />
     <file path="/footer.php" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1363479914637" ignored="false" />
     <file path="/Applications/MAMP/htdocs/AISF-Designs_other/index.html" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1363479770567" ignored="false" />
@@ -28,8 +29,15 @@
     <file path="/Applications/MAMP/htdocs/aisf-designs/css/style.css" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1363481526732" ignored="false" />
     <file path="/Applications/MAMP/htdocs/aisf-designs/advertising/index.php" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1363481858536" ignored="false" />
     <file path="/package.json" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1363488763448" ignored="false" />
-    <file path="/db.js" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1363968054815" ignored="false" />
+    <file path="/db.js" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365617921630" ignored="false" />
     <file path="/prefs.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1363643865925" ignored="false" />
+    <file path="$PROJECT_DIR$/../freshtag/server/index.js" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1364247182497" ignored="false" />
+    <file path="$PROJECT_DIR$/../freshtag/app/index.html" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1364247288273" ignored="false" />
+    <file path="/index.html" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1364247247379" ignored="false" />
+    <file path="$PROJECT_DIR$/../freshtag/app/styles/main.scss" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1364247376854" ignored="false" />
+    <file path="/main.scss" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1364247372256" ignored="false" />
+    <file path="/room.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365024143661" ignored="false" />
+    <file path="$PROJECT_DIR$/../freshtag/views/room.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365024143661" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,40 +57,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="32" selection-start="1009" selection-end="1009" vertical-scroll-proportion="0.2761394">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="70" selection-start="1280" selection-end="1317" vertical-scroll-proportion="0.0">
+            <state line="74" column="40" selection-start="1964" selection-end="1964" vertical-scroll-proportion="0.0">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="db.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="18" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="66" selection-start="2637" selection-end="2637" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/jquery.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="64" selection-start="64292" selection-end="64292" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -90,34 +78,18 @@
       <file leaf-file-name="players.mustache" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/players.mustache">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="112" selection-start="176" selection-end="176" vertical-scroll-proportion="-2.5">
-              <folding />
+            <state line="58" column="44" selection-start="2708" selection-end="2708" vertical-scroll-proportion="-6.5">
+              <folding>
+                <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.mustache" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/index.mustache">
+      <file leaf-file-name="db.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="112" selection-start="179" selection-end="179" vertical-scroll-proportion="0.08356546">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="prefs.mustache" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/prefs.mustache">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="112" selection-start="179" selection-end="179" vertical-scroll-proportion="-2.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.mustache" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/list.mustache">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="112" selection-start="179" selection-end="179" vertical-scroll-proportion="-2.5">
+            <state line="15" column="26" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -147,18 +119,22 @@
         <option value="$PROJECT_DIR$/routes/jquery.js" />
         <option value="$PROJECT_DIR$/public/javascripts/jquery.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
-        <option value="$PROJECT_DIR$/db.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/views/prefs.mustache" />
         <option value="$PROJECT_DIR$/views/list.mustache" />
-        <option value="$PROJECT_DIR$/views/players.mustache" />
+        <option value="$PROJECT_DIR$/views/header.mustache" />
+        <option value="$PROJECT_DIR$/views/footer.mustache" />
         <option value="$PROJECT_DIR$/views/index.mustache" />
+        <option value="$PROJECT_DIR$/views/players.mustache" />
+        <option value="$PROJECT_DIR$/db.js" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1920" />
-    <option name="height" value="1200" />
+    <option name="x" value="1" />
+    <option name="y" value="416" />
+    <option name="width" value="942" />
+    <option name="height" value="725" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -186,7 +162,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -289,18 +264,19 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="preferences.general" />
-    <property name="last_opened_file_path" value="/Applications/MAMP/htdocs/aisf-designs" />
+    <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -328,7 +304,7 @@
       <recent name="$PROJECT_DIR$/public/javascripts" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.app.js">
+  <component name="RunManager" selected="Node.js.doQuest">
     <configuration default="false" name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
       <RunnerSettings RunnerId="NodeJS.debug" />
       <RunnerSettings RunnerId="NodeJS.run" />
@@ -347,8 +323,14 @@
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="/usr/local/bin/node" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
-    <list size="1">
+    <configuration default="false" name="doQuest" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="/usr/local/bin/node" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
+      <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Node.js.app.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.doQuest" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -383,17 +365,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
+    <frame x="1" y="416" width="942" height="725" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16130732" sideWeight="0.69746375" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3101197" sideWeight="0.66062605" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3986014" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30253622" sideWeight="0.9257673" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33937398" sideWeight="0.9257673" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -465,31 +447,17 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/list.mustache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="83" selection-start="834" selection-end="834" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="31" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/index.mustache">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="38" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="16" column="38" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/players.mustache">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="86" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -515,60 +483,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/footer.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="46" selection-start="22" selection-end="22" vertical-scroll-proportion="-1.25" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/header.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="60" selection-start="0" selection-end="2499" vertical-scroll-proportion="-9.375" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/prefs.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="112" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/list.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="112" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="521" selection-end="521" vertical-scroll-proportion="0.16932908" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="64" selection-start="64292" selection-end="64292" vertical-scroll-proportion="0.0">
+        <state line="4" column="64" selection-start="64292" selection-end="64292" vertical-scroll-proportion="0.083333336" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/players.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="44" selection-start="2708" selection-end="2708" vertical-scroll-proportion="-6.5">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="70" selection-start="1280" selection-end="1317" vertical-scroll-proportion="0.0">
+        <state line="74" column="40" selection-start="1964" selection-end="1964" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="18" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0">
+        <state line="15" column="26" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="66" selection-start="2637" selection-end="2637" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/list.mustache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="112" selection-start="179" selection-end="179" vertical-scroll-proportion="-2.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/players.mustache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="112" selection-start="176" selection-end="176" vertical-scroll-proportion="-2.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/prefs.mustache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="112" selection-start="179" selection-end="179" vertical-scroll-proportion="-2.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.mustache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="112" selection-start="179" selection-end="179" vertical-scroll-proportion="0.08356546">
+        <state line="36" column="32" selection-start="1009" selection-end="1009" vertical-scroll-proportion="0.2761394">
           <folding />
         </state>
       </provider>

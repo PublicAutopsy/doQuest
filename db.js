@@ -8,8 +8,15 @@ var Player = new Schema({
 	level        : Number,
 	exp          : Number,
 	exp_required : Number,
-    preference   : String,
-    todo         : Array
+    preferences  : String,
+    timeStamp    : { type: Date, default: Date.now },
+    todos        : [
+        {
+            text : String,
+            done : Boolean
+
+        }
+    ]
 
 });
 

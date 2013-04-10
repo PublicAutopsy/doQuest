@@ -39,7 +39,11 @@ function(token, tokenSecret, profile, done){
                 level        : 1,
                 exp          : 1,
                 exp_required : 400,
-                preference   : "Bonjour!"
+                preference   : "Bonjour!",
+                todos        : [{
+                    text: "Create ToDos",
+                    done: false
+                }]
             }).save( function(err, player, count){
                     console.log(player);
                     if (err){throw(err)}
