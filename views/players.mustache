@@ -66,13 +66,15 @@
         </div>
         <div class="row">
             <div class="span6">
-                <div>
+                <div> <div class="well">
                     <form action="/player/{{user_name}}/add_todo" method="post">
                         <input type="text" name="new_todo" id="new_todo">
                         <input id="add_todo" value="Add Todo" type="submit">
                     </form>
                     {{#todos}} <div class="todo_item" id="{{_id}}">{{text}}</div> {{/todos}}</div>
-            </div>
+
+                </div>
+                </div>
             <div class="span6">
                 <div class="well"></div>
             </div>
