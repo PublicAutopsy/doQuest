@@ -8,7 +8,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365615177221" ignored="false" />
     <file path="/index.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1363992517432" ignored="false" />
-    <file path="/players.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365620951712" ignored="false" />
+    <file path="/players.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365621552877" ignored="false" />
     <file path="/index.js" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365620544312" ignored="false" />
     <file path="/dummy.xml" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365620267053" ignored="false" />
     <file path="/list.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1363467196441" ignored="false" />
@@ -65,7 +65,7 @@
       <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="145" column="39" selection-start="3572" selection-end="3572" vertical-scroll-proportion="0.0">
+            <state line="136" column="17" selection-start="3346" selection-end="3347" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -74,7 +74,7 @@
       <file leaf-file-name="players.mustache" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/players.mustache">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="46" selection-start="3250" selection-end="3250" vertical-scroll-proportion="0.4642857">
+            <state line="113" column="71" selection-start="4840" selection-end="4840" vertical-scroll-proportion="0.64285713">
               <folding>
                 <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -518,7 +518,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="39" selection-start="3572" selection-end="3572" vertical-scroll-proportion="0.0">
+        <state line="136" column="17" selection-start="3346" selection-end="3347" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -532,7 +532,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/players.mustache">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="46" selection-start="3250" selection-end="3250" vertical-scroll-proportion="0.4642857">
+        <state line="113" column="71" selection-start="4840" selection-end="4840" vertical-scroll-proportion="0.64285713">
           <folding>
             <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
