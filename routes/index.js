@@ -144,12 +144,14 @@ exports.add_todo = function(req, res){
     Player.findOneAndUpdate({user_name: req.params.name},
         {$pushAll: {todos: [{text:req.body.new_todo, done:false }]}},
         {upsert: true},
-        function(err){
+        function(err, player){
             if(err){
                 console.log(err);
 
             }else{
+
                 res.end();
+                console.log(player);
             }
         })
 }
