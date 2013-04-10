@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e357476f-d82b-4267-bf80-785af3ed147e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.mustache" afterPath="$PROJECT_DIR$/views/index.mustache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/list.mustache" afterPath="$PROJECT_DIR$/views/list.mustache" />
     </list>
     <ignored path="nodeRPG.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,14 +71,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="players.mustache" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="players.mustache" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/players.mustache">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="57" selection-start="3674" selection-end="3674" vertical-scroll-proportion="2.0239851">
+            <state line="25" column="34" selection-start="1117" selection-end="1117" vertical-scroll-proportion="2.4166667">
               <folding>
                 <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.mustache" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/index.mustache">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="44" selection-start="2484" selection-end="2484" vertical-scroll-proportion="0.44649446">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -123,8 +131,8 @@
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/views/players.mustache" />
-        <option value="$PROJECT_DIR$/views/index.mustache" />
         <option value="$PROJECT_DIR$/views/list.mustache" />
+        <option value="$PROJECT_DIR$/views/index.mustache" />
       </list>
     </option>
   </component>
@@ -525,13 +533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.mustache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="18" selection-start="526" selection-end="526" vertical-scroll-proportion="-7.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/list.mustache">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="30" selection-start="538" selection-end="538" vertical-scroll-proportion="0.24907748">
@@ -541,11 +542,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/players.mustache">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="57" selection-start="3674" selection-end="3674" vertical-scroll-proportion="2.0239851">
+        <state line="25" column="34" selection-start="1117" selection-end="1117" vertical-scroll-proportion="2.4166667">
           <folding>
             <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="44" selection-start="2484" selection-end="2484" vertical-scroll-proportion="0.44649446">
+          <folding />
         </state>
       </provider>
     </entry>
