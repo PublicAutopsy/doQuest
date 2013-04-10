@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e357476f-d82b-4267-bf80-785af3ed147e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.mustache" afterPath="$PROJECT_DIR$/views/index.mustache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/players.mustache" afterPath="$PROJECT_DIR$/views/players.mustache" />
     </list>
     <ignored path="nodeRPG.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365615177221" ignored="false" />
     <file path="/index.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365622133686" ignored="false" />
-    <file path="/players.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365622285066" ignored="false" />
+    <file path="/players.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365622386293" ignored="false" />
     <file path="/index.js" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365620544312" ignored="false" />
-    <file path="/dummy.xml" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365620267053" ignored="false" />
+    <file path="/dummy.xml" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365622386293" ignored="false" />
     <file path="/list.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1363467196441" ignored="false" />
     <file path="/app.js" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365622017016" ignored="false" />
     <file path="/Applications/MAMP/htdocs/aisf-designs/footer.php" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1363479967419" ignored="false" />
@@ -75,7 +74,7 @@
       <file leaf-file-name="players.mustache" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/players.mustache">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="48" selection-start="3282" selection-end="3282" vertical-scroll-proportion="0.375">
+            <state line="63" column="38" selection-start="2982" selection-end="2982" vertical-scroll-proportion="-0.16071428">
               <folding>
                 <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -537,7 +536,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/players.mustache">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="48" selection-start="3282" selection-end="3282" vertical-scroll-proportion="0.375">
+        <state line="63" column="38" selection-start="2982" selection-end="2982" vertical-scroll-proportion="-0.16071428">
           <folding>
             <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
