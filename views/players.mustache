@@ -62,6 +62,10 @@
                 <input type="hidden" value="25" name="experience_gain">
                 <p><a id="exp" class="btn btn-primary btn-large">+25</a></p>
             </form>
+            <form action="/player/{{user_name}}/add_todo" method="post">
+                <input type="hidden" value="A new Todo" name="new_todo">
+                <p><a id="add_todo" class="btn btn-primary btn-large">+25</a></p>
+            </form>
         </div>
         <div class="span6">
             <div class="well">{{todos}}</div>
@@ -94,6 +98,13 @@
                   return levelProg + "%";
                 });
 
+            });
+        });
+        $('#add_todo').click(function(e) {
+            e.preventDefault();
+            var data =  {new_todo : "A brand new todo"};
+            $.post("/player/"+user_name+"/add_todo", data,  function(player){
+                consoel.log("sent");
             });
         });
 
