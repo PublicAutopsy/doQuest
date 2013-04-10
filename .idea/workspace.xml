@@ -8,7 +8,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365615177221" ignored="false" />
     <file path="/index.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365622133686" ignored="false" />
-    <file path="/players.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365625126780" ignored="false" />
+    <file path="/players.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365625386517" ignored="false" />
     <file path="/index.js" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365620544312" ignored="false" />
     <file path="/dummy.xml" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365622609162" ignored="false" />
     <file path="/list.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1363467196441" ignored="false" />
@@ -74,7 +74,7 @@
       <file leaf-file-name="players.mustache" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/players.mustache">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="73" selection-start="3011" selection-end="3011" vertical-scroll-proportion="0.28782287">
+            <state line="46" column="42" selection-start="2258" selection-end="2258" vertical-scroll-proportion="0.67527676">
               <folding>
                 <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -538,7 +538,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/players.mustache">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="73" selection-start="3011" selection-end="3011" vertical-scroll-proportion="0.28782287">
+        <state line="46" column="42" selection-start="2258" selection-end="2258" vertical-scroll-proportion="0.67527676">
           <folding>
             <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
