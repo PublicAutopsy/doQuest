@@ -39,7 +39,7 @@ function(token, tokenSecret, profile, done){
                 level        : 1,
                 exp          : 1,
                 exp_required : 400,
-                preference   : "Bonjour!",
+                preferences   : "Bonjour!",
                 todos        : [{
                     text: "Create ToDos",
                     done: false
