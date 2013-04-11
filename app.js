@@ -115,6 +115,7 @@ app.get('/list', routes.list);
 app.get('/delete/:name', routes.delete);
 app.post('/player/:name/add_exp', routes.add_exp);
 app.post('/player/:name/add_todo', routes.add_todo);
+app.post('/player/:name/del_todo', routes.del_todo);
 
 function ensureAuthenticated(req, res, next){
     if (req.isAuthenticated()) {return next(); }

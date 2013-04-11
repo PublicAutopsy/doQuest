@@ -74,7 +74,7 @@
                         <input id="add_todo" value="Add Todo" class="btn" type="submit" style="position:relative; top:-5px;">
                     </form>
                     {{#todos}}
-                        <div class="todo_item" id="{{_id}}"><input class="checkbox" type="checkbox"/>{{text}} <a class="close" href="#">&times;</a><hr></div>
+                        <div class="todo_item" id="{{_id}}"><input class="checkbox" type="checkbox"/>{{text}} <a class="close delete" href="#">&times;</a><hr></div>
                     {{/todos}}
 
                 </div>
@@ -100,7 +100,7 @@
             });
         });
 
-        $('#checkbox').click(function(e) {
+        $('.checkbox').click(function(e) {
             e.preventDefault();
             var data =  {experience_gain : "25"};
             $.post("/player/"+user_name+"/add_exp", data,  function(player){
@@ -115,10 +115,18 @@
 
             });
         });
+
         $('#add_todo').click(function(e) {
             e.preventDefault();
             var data =  {new_todo : $("#new_todo").val() };
             $.post("/player/"+user_name+"/add_todo", data,  function(todos){
+                consoel.log(todos);
+            });
+        });
+        $('#del_todo').click(function(e) {
+            e.preventDefault();
+            var data =  {todo : $(".delete").parrent().attr('id') };
+            $.post("/player/"+user_name+"/del_todo", data,  function(todos){
                 consoel.log(todos);
             });
         });

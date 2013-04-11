@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e357476f-d82b-4267-bf80-785af3ed147e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/bootstrap-responsive.css" afterPath="$PROJECT_DIR$/public/stylesheets/bootstrap-responsive.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/players.mustache" afterPath="$PROJECT_DIR$/views/players.mustache" />
     </list>
@@ -10,11 +10,11 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365615177221" ignored="false" />
     <file path="/index.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365622133686" ignored="false" />
-    <file path="/players.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365695433717" ignored="false" />
-    <file path="/index.js" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365695438499" ignored="false" />
+    <file path="/players.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365696117031" ignored="false" />
+    <file path="/index.js" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365695984336" ignored="false" />
     <file path="/dummy.xml" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365625461538" ignored="false" />
     <file path="/list.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1363467196441" ignored="false" />
-    <file path="/app.js" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365622017016" ignored="false" />
+    <file path="/app.js" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365696017235" ignored="false" />
     <file path="/Applications/MAMP/htdocs/aisf-designs/footer.php" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1363479967419" ignored="false" />
     <file path="/footer.php" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1363479914637" ignored="false" />
     <file path="/Applications/MAMP/htdocs/AISF-Designs_other/index.html" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1363479770567" ignored="false" />
@@ -59,7 +59,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="51" selection-start="1136" selection-end="1136" vertical-scroll-proportion="0.0">
+            <state line="115" column="46" selection-start="3064" selection-end="3064" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -68,7 +68,7 @@
       <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="144" column="39" selection-start="3518" selection-end="3518" vertical-scroll-proportion="0.53367877">
+            <state line="156" column="28" selection-start="3803" selection-end="3803" vertical-scroll-proportion="0.507772">
               <folding />
             </state>
           </provider>
@@ -77,7 +77,7 @@
       <file leaf-file-name="players.mustache" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/players.mustache">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="110" column="33" selection-start="4759" selection-end="4759" vertical-scroll-proportion="-8.208333">
+            <state line="117" column="54" selection-start="4959" selection-end="4959" vertical-scroll-proportion="-7.5833335">
               <folding>
                 <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -131,13 +131,13 @@
         <option value="$PROJECT_DIR$/views/header.mustache" />
         <option value="$PROJECT_DIR$/views/footer.mustache" />
         <option value="$PROJECT_DIR$/db.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/views/index.mustache" />
         <option value="$PROJECT_DIR$/views/list.mustache" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/public/stylesheets/bootstrap-responsive.css" />
-        <option value="$PROJECT_DIR$/views/players.mustache" />
         <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/views/players.mustache" />
       </list>
     </option>
   </component>
@@ -542,14 +542,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="51" selection-start="1136" selection-end="1136" vertical-scroll-proportion="0.0">
+        <state line="115" column="46" selection-start="3064" selection-end="3064" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/players.mustache">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="33" selection-start="4759" selection-end="4759" vertical-scroll-proportion="-8.208333">
+        <state line="117" column="54" selection-start="4959" selection-end="4959" vertical-scroll-proportion="-7.5833335">
           <folding>
             <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -559,7 +559,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="39" selection-start="3518" selection-end="3518" vertical-scroll-proportion="0.53367877">
+        <state line="156" column="28" selection-start="3803" selection-end="3803" vertical-scroll-proportion="0.507772">
           <folding />
         </state>
       </provider>
