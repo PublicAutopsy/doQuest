@@ -123,9 +123,9 @@
                 consoel.log(todos);
             });
         });
-        $('#del_todo').click(function(e) {
+        $('.delete').click(function(e) {
             e.preventDefault();
-            var data =  {todo : $(".delete").parrent().attr('id') };
+            var data =  {todo : $(this).parrent().attr('id') };
             $.post("/player/"+user_name+"/del_todo", data,  function(todos){
                 consoel.log(todos);
             });
