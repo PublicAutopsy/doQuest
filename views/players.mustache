@@ -127,7 +127,7 @@
             e.preventDefault();
             var data =  {todo : $(this).parent().attr('id') };
             $.post("/player/"+user_name+"/del_todo", data,  function(todos){
-                consoel.log(todos);
+                console.log(todos);
             });
         });
 
