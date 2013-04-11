@@ -48,7 +48,7 @@
     </div>
 </div>
 	{{#players}}
-	<div class="container">
+	<div class="container main">
         <div class="row">
         <div class="span12">
             <h1><span id="name" style="word-wrap: break-word;">{{user_name}}</span></h1>
@@ -56,7 +56,7 @@
             <h3>Level: <span id="level">{{level}}</span></h3>
 
             <h4>EXP: <span id="experience">{{exp}}</span> /<span id="experience_req">{{exp_required}}</span></h4>
-            <div class="progress progress-striped active">
+            <div class="progress">
                 <div class="bar" id="levelProgress"></div>
             </div>
             <!--<form action="/player/{{user_name}}/add_exp" method="post">-->

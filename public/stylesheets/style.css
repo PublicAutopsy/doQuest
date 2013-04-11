@@ -2,3 +2,11 @@
 input.checkbox{
     margin: 0px 10px 0px 0px !important;
 }
+
+.navbar-fixed-top{
+    position:fixed !important;
+}
+
+.main{
+    padding-top: 50px;
+}
