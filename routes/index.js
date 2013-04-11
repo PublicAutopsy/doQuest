@@ -156,7 +156,7 @@ exports.add_todo = function(req, res){
 
 exports.del_todo = function(req, res){
     Player.findOneAndUpdate({user_name: req.params.name},
-        {$pull: {todos: [ {_id:req.body.todo} ]} },
+        {$pull: {todos: {_id:req.body.todo} } },
         function(err, player){
             if(err){
                 console.log(err);
