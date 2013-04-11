@@ -120,7 +120,7 @@
             e.preventDefault();
             var data =  {new_todo : $("#new_todo").val() };
             $.post("/player/"+user_name+"/add_todo", data,  function(todos){
-                consoel.log(todos);
+                console.log(todos);
             });
         });
         $('.delete').click(function(e) {

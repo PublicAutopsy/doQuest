@@ -9,7 +9,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365615177221" ignored="false" />
     <file path="/index.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365622133686" ignored="false" />
-    <file path="/players.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365696448237" ignored="false" />
+    <file path="/players.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365696714761" ignored="false" />
     <file path="/index.js" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365695984336" ignored="false" />
     <file path="/dummy.xml" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365625461538" ignored="false" />
     <file path="/list.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1363467196441" ignored="false" />
@@ -67,7 +67,7 @@
       <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="155" column="40" selection-start="3801" selection-end="3801" vertical-scroll-proportion="0.4818653">
+            <state line="152" column="57" selection-start="3726" selection-end="3726" vertical-scroll-proportion="0.45595855">
               <folding />
             </state>
           </provider>
@@ -76,7 +76,7 @@
       <file leaf-file-name="players.mustache" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/players.mustache">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="115" column="40" selection-start="4946" selection-end="4946" vertical-scroll-proportion="-7.5833335">
+            <state line="119" column="46" selection-start="5034" selection-end="5034" vertical-scroll-proportion="-10.083333">
               <folding>
                 <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -97,7 +97,7 @@
       <file leaf-file-name="db.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="9" selection-start="302" selection-end="307" vertical-scroll-proportion="0.0">
+            <state line="18" column="45" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -504,13 +504,6 @@
         <state line="4" column="64" selection-start="64292" selection-end="64292" vertical-scroll-proportion="0.083333336" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="9" selection-start="302" selection-end="307" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/index.mustache">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="57" selection-start="405" selection-end="405" vertical-scroll-proportion="0.23121387">
@@ -539,6 +532,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="45" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="66" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -548,7 +548,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/players.mustache">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="40" selection-start="4946" selection-end="4946" vertical-scroll-proportion="-7.5833335">
+        <state line="119" column="46" selection-start="5034" selection-end="5034" vertical-scroll-proportion="-10.083333">
           <folding>
             <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -558,7 +558,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="40" selection-start="3801" selection-end="3801" vertical-scroll-proportion="0.4818653">
+        <state line="152" column="57" selection-start="3726" selection-end="3726" vertical-scroll-proportion="0.45595855">
           <folding />
         </state>
       </provider>
