@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e357476f-d82b-4267-bf80-785af3ed147e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/players.mustache" afterPath="$PROJECT_DIR$/views/players.mustache" />
     </list>
     <ignored path="nodeRPG.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,7 +66,7 @@
       <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="152" column="57" selection-start="3726" selection-end="3726" vertical-scroll-proportion="0.45595855">
+            <state line="149" column="45" selection-start="3659" selection-end="3659" vertical-scroll-proportion="0.37823835">
               <folding />
             </state>
           </provider>
@@ -558,7 +557,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="57" selection-start="3726" selection-end="3726" vertical-scroll-proportion="0.45595855">
+        <state line="149" column="45" selection-start="3659" selection-end="3659" vertical-scroll-proportion="0.37823835">
           <folding />
         </state>
       </provider>
