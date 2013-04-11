@@ -100,7 +100,7 @@
             });
         });
 
-        $('#exp').click(function(e) {
+        $('#checkbox').click(function(e) {
             e.preventDefault();
             var data =  {experience_gain : "25"};
             $.post("/player/"+user_name+"/add_exp", data,  function(player){
@@ -118,8 +118,8 @@
         $('#add_todo').click(function(e) {
             e.preventDefault();
             var data =  {new_todo : $("#new_todo").val() };
-            $.post("/player/"+user_name+"/add_todo", data,  function(){
-                consoel.log("sent");
+            $.post("/player/"+user_name+"/add_todo", data,  function(todos){
+                consoel.log(todos);
             });
         });
 

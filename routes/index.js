@@ -149,7 +149,7 @@ exports.add_todo = function(req, res){
                 console.log(err);
 
             }else{
-
+                res.send(player.todos);
                 res.end();
                 console.log(player);
             }
