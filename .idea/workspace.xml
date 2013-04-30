@@ -2,17 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e357476f-d82b-4267-bf80-785af3ed147e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/nodeRPG.iml" afterPath="$PROJECT_DIR$/.idea/nodeRPG.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nodeRPG.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365615177221" ignored="false" />
-    <file path="/index.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365622133686" ignored="false" />
+    <file path="/Dummy.txt" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1366148574855" ignored="false" />
+    <file path="/index.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365800988654" ignored="false" />
     <file path="/players.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365696714761" ignored="false" />
-    <file path="/index.js" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365695984336" ignored="false" />
-    <file path="/dummy.xml" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365625461538" ignored="false" />
+    <file path="/index.js" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365809688022" ignored="false" />
+    <file path="/dummy.xml" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365800812980" ignored="false" />
     <file path="/list.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1363467196441" ignored="false" />
-    <file path="/app.js" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365696017235" ignored="false" />
+    <file path="/app.js" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1366144910883" ignored="false" />
     <file path="/Applications/MAMP/htdocs/aisf-designs/footer.php" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1363479967419" ignored="false" />
     <file path="/footer.php" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1363479914637" ignored="false" />
     <file path="/Applications/MAMP/htdocs/AISF-Designs_other/index.html" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1363479770567" ignored="false" />
@@ -24,17 +28,33 @@
     <file path="/index.php" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1363481858861" ignored="false" />
     <file path="/Applications/MAMP/htdocs/aisf-designs/css/style.css" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1363481526732" ignored="false" />
     <file path="/Applications/MAMP/htdocs/aisf-designs/advertising/index.php" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1363481858536" ignored="false" />
-    <file path="/package.json" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1363488763448" ignored="false" />
-    <file path="/db.js" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365617921630" ignored="false" />
+    <file path="/package.json" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365811197553" ignored="false" />
+    <file path="/db.js" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365800387237" ignored="false" />
     <file path="/prefs.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1363643865925" ignored="false" />
     <file path="$PROJECT_DIR$/../freshtag/server/index.js" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1364247182497" ignored="false" />
     <file path="$PROJECT_DIR$/../freshtag/app/index.html" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1364247288273" ignored="false" />
-    <file path="/index.html" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1364247247379" ignored="false" />
+    <file path="/index.html" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1366147957228" ignored="false" />
     <file path="$PROJECT_DIR$/../freshtag/app/styles/main.scss" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1364247376854" ignored="false" />
     <file path="/main.scss" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1364247372256" ignored="false" />
     <file path="/room.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365024143661" ignored="false" />
     <file path="$PROJECT_DIR$/../freshtag/views/room.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365024143661" ignored="false" />
     <file path="/style.css" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365695144925" ignored="false" />
+    <file path="$PROJECT_DIR$/../frangelico_confessional/db.js" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365809014284" ignored="false" />
+    <file path="$PROJECT_DIR$/../frangelico_confessional/routes/index.js" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365809719492" ignored="false" />
+    <file path="$PROJECT_DIR$/../frangelico_confessional/views/single.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365800880450" ignored="false" />
+    <file path="$PROJECT_DIR$/../frangelico_confessional/app.js" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1366144970384" ignored="false" />
+    <file path="$PROJECT_DIR$/../frangelico_confessional/views/index.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1366145563976" ignored="false" />
+    <file path="/single.mustache" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365800457121" ignored="false" />
+    <file path="$PROJECT_DIR$/../frangelico_confessional/node_modules/express/lib/router/index.js" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365808697699" ignored="false" />
+    <file path="$PROJECT_DIR$/../frangelico_confessional/node_modules/express/lib/application.js" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365808697699" ignored="false" />
+    <file path="$PROJECT_DIR$/../frangelico_confessional/node_modules/express/node_modules/connect/lib/middleware/timeout.js" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365808697699" ignored="false" />
+    <file path="$PROJECT_DIR$/../frangelico_confessional/node_modules/express/lib/router/route.js" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365808697699" ignored="false" />
+    <file path="$PROJECT_DIR$/../frangelico_confessional/package.json" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1365811837458" ignored="false" />
+    <file path="$PROJECT_DIR$/../frangelico_confessional/public/stylesheets/style.css" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1366145563976" ignored="false" />
+    <file path="$PROJECT_DIR$/../frangelico_confessional/public/stylesheets/style.scss" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1366145563976" ignored="false" />
+    <file path="/Applications/MAMP/htdocs/newRelic/new-relic-clue-campaign/css/ie.css" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1366147947740" ignored="false" />
+    <file path="/ie.css" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1366147842851" ignored="false" />
+    <file path="/Applications/MAMP/htdocs/newRelic/new-relic-clue-campaign/index.html" changelist="e357476f-d82b-4267-bf80-785af3ed147e" time="1366148011569" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,25 +68,75 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="nodeRPG" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="115" column="46" selection-start="3064" selection-end="3064" vertical-scroll-proportion="0.0">
+            <state line="103" column="38" selection-start="2743" selection-end="2743" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="20" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="148" column="75" selection-start="3658" selection-end="3658" vertical-scroll-proportion="0.3523316">
+            <state line="139" column="7" selection-start="3378" selection-end="3378" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -75,11 +145,8 @@
       <file leaf-file-name="players.mustache" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/players.mustache">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="119" column="46" selection-start="5034" selection-end="5034" vertical-scroll-proportion="-10.083333">
-              <folding>
-                <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="112" column="11" selection-start="4879" selection-end="4879" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -87,7 +154,7 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="66" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -96,7 +163,7 @@
       <file leaf-file-name="db.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="45" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
+            <state line="7" column="9" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -133,15 +200,15 @@
         <option value="$PROJECT_DIR$/views/list.mustache" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/public/stylesheets/bootstrap-responsive.css" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/views/players.mustache" />
         <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="y" value="416" />
+    <option name="x" value="962" />
+    <option name="y" value="374" />
     <option name="width" value="942" />
     <option name="height" value="725" />
   </component>
@@ -152,6 +219,8 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
     <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
@@ -274,6 +343,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -282,28 +352,10 @@
     <property name="options.lastSelected" value="preferences.general" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sockets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
-  </component>
-  <component name="PublishConfig">
-    <servers>
-      <server id="4a9cb5c4-a911-41f0-a733-cdf81f0d7f08">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
-      </server>
-      <server id="dc68619e-5072-4366-a7b7-af8381cf848c">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
-      </server>
-    </servers>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -321,14 +373,6 @@
       <ConfigurationWrapper RunnerId="NodeJS.run" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="/usr/local/bin/node" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
@@ -338,8 +382,8 @@
       <method />
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.app.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.doQuest" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.doQuest" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.app.js" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -374,23 +418,31 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="416" width="942" height="725" extended-state="0" />
-    <editor active="true" />
+    <frame x="962" y="374" width="942" height="725" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3986014" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23612623" sideWeight="0.66062605" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3986014" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23549107" sideWeight="0.66062605" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33937398" sideWeight="0.9257673" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -421,7 +473,7 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
     <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
     <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
@@ -459,10 +511,7 @@
     <entry file="file://$PROJECT_DIR$/views/players.mustache">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="86" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -474,13 +523,6 @@
     <entry file="file:///Applications/MAMP/htdocs/git/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="52" column="33" selection-start="2305" selection-end="2305" vertical-scroll-proportion="-15.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="53" selection-start="259" selection-end="259" vertical-scroll-proportion="0.33816424">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/footer.mustache">
@@ -505,59 +547,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.mustache">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="57" selection-start="405" selection-end="405" vertical-scroll-proportion="0.23121387">
-          <folding />
-        </state>
+        <state line="8" column="57" selection-start="405" selection-end="405" vertical-scroll-proportion="0.23121387" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/list.mustache">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="57" selection-start="405" selection-end="405" vertical-scroll-proportion="0.14944649">
-          <folding />
-        </state>
+        <state line="8" column="57" selection-start="405" selection-end="405" vertical-scroll-proportion="0.14944649" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/bootstrap-responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="954" column="63" selection-start="18632" selection-end="18632" vertical-scroll-proportion="0.35920578">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="46" selection-start="3064" selection-end="3064" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="45" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="954" column="63" selection-start="18632" selection-end="18632" vertical-scroll-proportion="0.35920578" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="66" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="139" column="7" selection-start="3378" selection-end="3378" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/players.mustache">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="46" selection-start="5034" selection-end="5034" vertical-scroll-proportion="-10.083333">
-          <folding>
-            <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="112" column="11" selection-start="4879" selection-end="4879" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
+    <entry file="file://$PROJECT_DIR$/db.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="148" column="75" selection-start="3658" selection-end="3658" vertical-scroll-proportion="0.3523316">
+        <state line="7" column="9" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="20" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="38" selection-start="2743" selection-end="2743" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
